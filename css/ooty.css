@@ -1,0 +1,477 @@
+body{
+    background-color:#000000;
+    margin: 0;
+    margin-top: 100px;
+    padding-top: 0;
+}
+.navbar{
+    background-color: #fff;
+    height: 80px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    margin-top: -100px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar-icon{
+    padding-left: 40px;
+    height: 100px;
+
+}
+.tit{
+    text-align: center;
+}
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #06038D;
+    position: relative;
+    left: 100px;
+    padding-bottom: 15px;
+    margin-top: 8px;
+}
+.menu-icon{
+    border:2px solid black;
+    border-radius: 30px;
+    background-color: black;
+    color:azure;
+    padding:9px;
+    font-size: 20px;
+    text-align: center;
+    width:70px;
+    height:auto;
+    font-weight: bold;
+    position: relative;
+    top:20px;
+    margin:7px;
+   
+    
+
+}
+
+.menu-icon:hover{
+    color:#000;
+    background-color: whitesmoke;
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+.navbar-menu{
+    position: relative;
+    top: -5px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.image-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 10px;
+}
+.ooty-image{
+    margin: 10px;
+    height: 520px;
+    width: 580px;
+    border-radius: 15px; 
+}    
+.image-group{
+    display: flex;
+    flex-wrap: wrap;
+    height: 280px;
+    width: 820px;
+}
+.small-images{
+    margin: 10px;
+    height: 240px;
+    width: 250px;
+    border-radius: 15px;
+}
+.horizontal-image-container{
+    height: 280px;
+    width: 820px;
+}
+ #horizontal-image{
+    margin: 10px;
+    height: 240px;
+    width: 790px;
+    border-radius: 15px;
+}
+.heading{
+    color: #ffffff;
+    margin: 10px;
+}
+.text{
+    color: #929293;
+    font-size: large;
+}
+.loc-title{
+    color: white;
+    margin-bottom:10px;
+    text-align: center;
+    font-size: 60px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.location{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+}
+.info-division{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+    background: #131416;
+    margin: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 15px;
+    border: 3px solid white;  
+}
+.heading-container{
+    display: block;
+    text-align: center;
+    margin: 10px;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+}
+.food-card{
+    background:#929293;
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 20px;
+    height: 340px;
+    width: 320px;
+    border-radius: 15px;
+    border: 3px solid white;
+}
+.card-image{
+    display: block;
+    margin: 5px auto;
+    border-radius: 5px;
+    height: 168px;
+    width: 300px;
+}
+.card-image:hover{
+    filter:blur(3px);
+    transition: 0.5s;
+}
+.card-title{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin: 5px;
+}
+.food-description{
+    display: block;
+    text-align: center;
+}
+.desti-distance{
+    font-size: 20px;
+    color: #06038D;
+}
+.destination-card{
+    background:#929293;
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 20px;
+    height: 360px;
+    width: 320px;
+    border-radius: 15px;
+    border: 3px solid white;
+}
+.footer{
+    background: #fff;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.footer-img{
+    height: 250px;
+    position: relative;
+    bottom: 20px;
+    right: 30px;
+}
+.input{
+    border-radius: 15px;
+    background-color: #fff;
+    color: #000;
+}
+.h2{
+    margin-top: -50px;
+}
+.btn{
+    background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn:hover{
+    background-image: linear-gradient(to right, #757F9A 0%, #D7DDE8  51%, #757F9A  100%);
+    background-position: right center; /* change the direction of the change here */
+    color:#000;
+    text-decoration: none;
+}
+
+.button{
+    border-radius: 10px;  
+}
+
+@media screen and (min-width: 500px) and (max-width:768px){
+    .navbar{
+        height: 40px;
+        display: flex;
+        
+    }
+    .navbar-icon{
+        padding-left: 10px;
+        height: 70px;
+        position: relative;
+        bottom: 10px;
+    
+    }
+    
+    .title{
+        font-size: 20px;
+        position: relative;
+        left: 1px;
+        padding-bottom: 0px;
+        margin-top: 2px;
+    }
+    .menu-icon{
+        font-size: 15px;
+        margin-left: 5px;
+        padding: 3px;
+        
+    }
+    
+    .navbar-menu{
+        position: relative;
+        top: -16px;
+        right: 15px;
+    }
+        .image-container{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .image-group{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .ooty-image{
+            height: 420px;
+            width: 480px;
+        }  
+        .small-images{
+            height: 140px;
+            width: 160px;
+        }
+        .image-group{
+            height: 180px;
+            width: 600px;
+            justify-content: space-around;
+        }
+        #horizontal-image{
+            height: 200px;
+            width: 600px;
+        }
+        .horizontal-image-container{
+            display: inline;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .info-division{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .food-card{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .destination-card{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .footer{
+            padding: 30px;
+            justify-content: space-between;
+            
+        }
+        .s-column{
+            font-size: 13px;
+            padding-right: 20px;
+            padding-top: 35px;
+            padding-left: 20px;
+        }
+        .h2{
+            font-size: 15px;
+            position: relative;
+            margin: 10px 0;
+        }
+        .footer-img{
+            height: 100px;
+            position: relative;
+            top: 5px;
+        }
+        
+        .social-m{
+            height: 32px;
+        }
+        .btn{
+            margin: 10px;
+            padding: 10px 15px;
+            size: 25px;  
+        }
+}  
+@media screen and (min-width:768px) and (max-width:992px){
+    .navbar{
+        height: 40px;
+        display: flex;
+        
+    }
+    .navbar-icon{
+        padding-left: 10px;
+        height: 70px;
+        position: relative;
+        bottom: 10px;
+    
+    }
+    
+    .title{
+        font-size: 30px;
+        position: relative;
+        left: 1px;
+        padding-bottom: 0px;
+        margin-top: 2px;
+    }
+    .menu-icon{
+        margin-left: 10px;
+        margin-top: 11px;
+        font-size: 15px;
+        padding: 3px 1px;
+    }
+    
+    .navbar-menu{
+        position: relative;
+        top: -25px;
+        right: 15px;
+    }
+        .info-division{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .footer{
+            padding: 30px;
+        }
+        .s-column{
+            font-size: 13px;
+            padding-right: 20px;
+            padding-top: 35px;
+            padding-left: 20px;
+        }
+        .h2{
+            font-size: 15px;
+            padding-top: 25px;
+        }
+        .footer-img{
+            height: 150px;
+            position: relative;
+            top: 5px;
+        }
+        
+        .social-m{
+            height: 25px;
+        }
+        .btn{
+            margin: 10px;
+            padding: 10px 15px;
+            size: 25px;  
+        }
+        
+} 
+@media screen and (min-width:992px) and (max-width:1350px){
+    .navbar{
+        height: 40px;
+        display: flex;
+        
+    }
+    .navbar-icon{
+        padding-left: 10px;
+        height: 70px;
+        position: relative;
+        bottom: 10px;
+    
+    }
+    
+    .title{
+        font-size: 30px;
+        position: relative;
+        left: 1px;
+        padding-bottom: 0px;
+        margin-top: 2px;
+    }
+    .menu-icon{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    
+    .navbar-menu{
+        position: relative;
+        top: -25px;
+        right: 15px;
+    }
+    .footer{
+        padding: 30px;
+    }
+    
+    
+    .s-column{
+        font-size: 13px;
+        padding-right: 20px;
+        padding-top: 35px;
+        padding-left: 20px;
+    }
+    .h2{
+        font-size: 15px;
+        margin: 10px;
+
+        
+    }
+    .footer-img{
+        height: 150px;
+        position: relative;
+        top: 5px;
+        right: 17px;
+    }
+    
+    .social-m{
+        height: 25px;
+    }
+    .btn{
+        margin: 10px;
+        padding: 10px 15px;
+        size: 25px;  
+    }
+} 

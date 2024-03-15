@@ -1,0 +1,737 @@
+body{
+    background-color:#000000;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.float{
+    position: fixed;
+    left: 1370px;
+    border: 2px dotted gray;
+    border-radius: 25px;
+    top: 300px;
+    cursor: pointer;
+    width: 300px;
+
+}
+
+.float>video{
+    width: 100%;
+}
+.float>h1{
+    position: absolute;
+}
+.float>h6{
+    position: absolute;
+}
+.float>table{
+    position: absolute;
+}
+table{
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+    color: #fff;
+}
+
+.video{
+    border-radius: 25px;
+}
+.float-h1{
+    position: absolute;
+    left: 83px;
+    color: goldenrod;
+}
+.float-h6{
+    position: absolute;
+    top: 20px;
+    left: 68px;
+    font-size: 18px;
+    color: goldenrod;
+
+}
+.navbar{
+    background-color: #fff;
+    height: 80px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: -5px;
+}
+
+.navbar-icon{
+    padding-left: 40px;
+    height: 100px;
+
+}
+.tit{
+    text-align: center;
+}
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #06038D;
+    position: relative;
+    left: 100px;
+    padding-bottom: 15px;
+    margin-top: 8px;
+}
+.menu-icon{
+    border:2px solid black;
+    border-radius: 30px;
+    background-color: black;
+    color:azure;
+    padding:9px;
+    font-size: 20px;
+    text-align: center;
+    width:70px;
+    height:auto;
+    font-weight: bold;
+    position: relative;
+    top:20px;
+    margin:7px;
+   
+    
+
+}
+
+.menu-icon:hover{
+    color:#000;
+    background-color: whitesmoke;
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+.navbar-menu{
+    position: relative;
+    top: -5px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.india{
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    
+}
+.ind1{
+    padding-top: 10px;
+    font-size: 40px;
+    color: white;
+}
+.quote{
+    font-weight: bolder;
+    font-style:oblique;
+    color: #fff;
+   
+}
+.super-card{
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+   
+
+}
+.card{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.4s ease;
+    box-shadow: 4px 8px 20px 0px gray ;
+}
+.txt{
+    font-size: 18px;
+}
+.india-img{
+    height: 200px;
+    border-radius: 25px;
+    width: 300px;
+    box-shadow:0 0 5px 3px gray;
+}
+
+.f_div{
+    border-style:solid;
+    border-width: 1px 0 1px 0 ;
+    border-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+    
+}
+.img_hp{
+    height: 300px;
+    width: 450px;
+    border-radius: 25px;
+    box-shadow:0 0 5px 3px gray;
+    cursor: pointer;
+
+}
+.img_hp:hover{
+    transform: scale(1.1);
+    transition: 0.4s ease;
+    box-shadow: 4px 8px 20px 0px gray ;
+}
+         
+         
+.btn{
+    background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%);
+    margin: 10px;
+    font-size: 15px;
+    padding: 15px 35px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn:hover{
+    background-image: linear-gradient(to right, #757F9A 0%, #D7DDE8  51%, #757F9A  100%);
+    background-position: right center; /* change the direction of the change here */
+    color:#000;
+    text-decoration: none;
+}
+           
+  
+.h1{
+    color: white;
+    font-size: 44px;
+    text-align: center;
+
+}
+
+.h4{
+    color: white;
+    font-size: 22px;
+    padding: 20px;
+    text-align: justify;
+
+}
+
+
+.t-title{
+    color: aliceblue;
+    text-align: center;
+}
+.op{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-bottom: 40px;
+}
+.op1{
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 15px;
+    cursor: pointer;
+    width: 280px;
+
+}
+.op1:hover{
+    transform: scale(0.9);
+    transition: 0.4s ease;
+    box-shadow: 6px 8px 20px 0px gray ;
+}
+
+.op-img{
+    height: 200px;
+    width: 270px;
+    border-radius: 15px;
+    padding-left: 5px;
+}
+.dest{
+    text-align: center;
+    padding-top: 10px;
+}
+.main-review{
+    height: 650px;
+    border-style:solid;
+    border-width: 2px 0 2px 0 ;
+    border-color: aliceblue;
+
+}
+.review{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.review-cards{
+    background-color: #fff;
+    margin: 15px;
+    border-radius: 30px;
+    text-align: center;
+    width: 260px;
+    height: 400px;
+    cursor: pointer;
+    padding: 20px;
+}
+.review-cards:hover{
+    transform: scale(0.9);
+    transition: 0.4s ease;
+    box-shadow: 6px 8px 20px 0px gray ;
+}
+.cust-img{
+    height: 190px;
+    width: 160px;
+    border-radius: 50%;
+}
+
+.cust-name{
+    font-size: 18px;
+    margin-bottom: -10px;
+}
+
+.cust-review{
+    text-align: justify;
+}
+
+.review-btn{
+    background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%);
+    margin: 10px;
+    font-size: 15px;
+    padding: 15px 35px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 18px;
+}
+
+.review-btn:hover{
+    background-image: linear-gradient(to right, #757F9A 0%, #D7DDE8  51%, #757F9A  100%);
+    background-position: right center; /* change the direction of the change here */
+    color:#000;
+    text-decoration: none;
+}
+.footer{
+    background: #fff;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.footer-img{
+    height: 250px;
+    position: relative;
+    bottom: 20px;
+    right: 30px;
+}
+.input{
+    border-radius: 15px;
+    background-color: #fff;
+    color: #000;
+}
+
+.kahi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.h2{
+    margin-top: -50px;
+}
+
+.button{
+    border-radius: 10px;
+    
+}
+
+@media screen and (min-width: 430px) and (max-width:768px){
+
+    .navbar{
+        height: 40px;
+        display: flex;
+        
+    }
+    .navbar-icon{
+        padding-left: 10px;
+        height: 70px;
+        position: relative;
+        bottom: 10px;
+    
+    }
+    
+    .title{
+        font-size: 20px;
+        position: relative;
+        left: 1px;
+        padding-bottom: 0px;
+        margin-top: 2px;
+    }
+    .menu-icon{
+        font-size: 15px;
+        margin-left: 5px;
+        padding: 3px;
+        
+    }
+    
+    .navbar-menu{
+        position: relative;
+        top: -16px;
+        right: 15px;
+    }
+    .india{
+        height: 1300px;
+    }
+    
+    .parent-super{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .super-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-right: 40px;
+        margin-left: 20px;
+    }
+    .card{
+        height: 230px;
+        width: 220px;
+        margin-bottom: 50px;  
+    }
+    
+    .india-img{
+        height: 160px;
+        width: 200px;
+    }
+    .f_div{
+        margin-left: 5x;
+    }
+    .img_hp{
+        height: 150px;
+        width: 250px;
+    
+    }
+          
+    .btn{
+        margin: 10px;
+        padding: 10px 15px;
+        size: 25px;  
+    }
+    
+    
+    .h1{
+        font-size: 22px;
+    }
+    
+    .h4{
+        font-size: 15px;
+    }
+    .t-title{
+    margin-bottom: 30px;
+    }
+    .op{
+        height: 1600px;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    
+    .footer{
+        padding: 30px;
+        justify-content: space-between;
+        
+    }
+    .s-column{
+        font-size: 13px;
+        padding-right: 20px;
+        padding-top: 35px;
+        padding-left: 20px;
+    }
+    .h2{
+        font-size: 15px;
+        position: relative;
+        margin: 10px 0;
+    }
+    .footer-img{
+        height: 100px;
+        position: relative;
+        top: 5px;
+    }
+    
+    .social-m{
+        height: 32px;
+    }
+    
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+
+    
+    
+    .navbar{
+        height: 40px;
+        display: flex;
+        
+    }
+    .navbar-icon{
+        padding-left: 10px;
+        height: 70px;
+        position: relative;
+        bottom: 10px;
+    
+    }
+    
+    .title{
+        font-size: 30px;
+        position: relative;
+        left: 1px;
+        padding-bottom: 0px;
+        margin-top: 2px;
+    }
+    .menu-icon{
+        margin-left: 10px;
+        margin-top: 11px;
+        font-size: 15px;
+        padding: 3px 1px;
+    }
+    
+    .navbar-menu{
+        position: relative;
+        top: -25px;
+        right: 15px;
+    }
+    .india{
+        height: 1300px;
+    }
+    
+    .parent-super{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .super-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-right: 40px;
+        margin-left: 20px;
+    }
+    .card{
+        height: 230px;
+        width: 220px;
+        margin-bottom: 50px;  
+    }
+    
+    .india-img{
+        height: 160px;
+        width: 200px;
+    }
+    .f_div{
+        margin-left: 5x;
+    }
+    .img_hp{
+        height: 150px;
+        width: 250px;
+    
+    }
+          
+    .btn{
+        margin: 10px;
+        padding: 10px 15px;
+        size: 25px;  
+    }
+    
+    
+    .h1{
+        font-size: 22px;
+    }
+    
+    .h4{
+        font-size: 15px;
+    }
+    .t-title{
+    margin-bottom: 30px;
+    }
+    .op{
+        height: 1600px;
+        flex-direction:column;
+        align-items:center;
+    }
+    
+    .footer{
+        padding: 30px;
+    }
+    .s-column{
+        font-size: 13px;
+        padding-right: 20px;
+        padding-top: 35px;
+        padding-left: 20px;
+    }
+    .h2{
+        font-size: 15px;
+        padding-top: 25px;
+    }
+    .footer-img{
+        height: 150px;
+        position: relative;
+        top: 5px;
+    }
+    
+    .social-m{
+        height: 25px;
+    }
+    
+}
+@media screen and (min-width:992px) and (max-width:1550px){
+
+    
+    .navbar{
+        height: 40px;
+        display: flex;
+        
+    }
+    .navbar-icon{
+        padding-left: 10px;
+        height: 70px;
+        position: relative;
+        bottom: 10px;
+    
+    }
+    
+    .title{
+        font-size: 30px;
+        position: relative;
+        left: 1px;
+        padding-bottom: 0px;
+        margin-top: 2px;
+    }
+    .menu-icon{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    
+    .navbar-menu{
+        position: relative;
+        top: -25px;
+        right: 15px;
+    }
+    .india{
+        height: 1600px;
+    }
+    
+    .parent-super{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .super-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-right: 40px;
+        margin-left: 20px;
+    }
+    .card{
+        height: 300px;
+        width: 420px;
+        margin-bottom: 50px;  
+    }
+    
+    .india-img{
+        height: 220px;
+        width: 400px;
+    }
+    .f_div{
+        margin-left: 5x;
+        height: 200px;
+    }
+    .img_hp{
+        height: 180px;
+        width: 290px;
+    
+    }
+          
+    .btn{
+        margin: 10px;
+        padding: 10px 15px;
+        size: 25px;  
+    }
+    
+    
+    .h1{
+        font-size: 22px;
+    }
+    
+    .h4{
+        font-size: 15px;
+    }
+    .t-title{
+    margin-bottom: 30px;
+    }
+    .op{
+        height: 1600px;
+        flex-direction:column;
+        align-items:center;
+    }
+    
+    .footer{
+        padding: 30px;
+    }
+    
+    
+    .s-column{
+        font-size: 13px;
+        padding-right: 20px;
+        padding-top: 35px;
+        padding-left: 20px;
+    }
+    .h2{
+        font-size: 15px;
+        margin: 10px;
+
+        
+    }
+    .footer-img{
+        height: 150px;
+        position: relative;
+        top: 5px;
+        right: 17px;
+    }
+    
+    .social-m{
+        height: 25px;
+    }
+    
+}
+
+
+
+    
+
+
+
+

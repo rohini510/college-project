@@ -1,0 +1,688 @@
+body{
+    background-color: black;
+    padding:0;
+    margin:0;
+   }
+   a{
+    text-decoration: none;
+    color: #000;
+}
+   .navbar{
+    background-color: #fff;
+    height: 80px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar-icon{
+    padding-left: 40px;
+    height: 160px;
+    position: relative;
+    bottom:35px;
+}
+.nav-btn{
+    border:2px solid black;
+    border-radius: 30px;
+    background-color: black;
+    color:azure;
+    padding:10px;
+    font-size: 15px;
+    width:90px;
+    height:auto;
+    font-weight: bold;
+    position: relative;
+    top:40px;
+    margin:7px;
+}
+.nav-btn:hover{
+    color:#000;
+    background-color: whitesmoke;
+    transform: scale(1.2);
+    transition: 0.4s;
+        }
+.tit{
+    text-align: center;
+}
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #06038D;
+    position: relative;
+    left: 40px;
+    padding-bottom: 15px;
+    margin-top: 8px;
+}
+.navbar-menu{
+    position: relative;
+    bottom:45px;
+    margin:10px;
+    padding:20px;
+    display: flex;
+    flex-direction: row;
+    }
+
+.main-heading{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color:whitesmoke;
+    margin-left: 500px;
+   }
+   .tag-line{
+    font-size: 20px;
+    font-weight: 100;
+   }
+   .taj-mahal-img{
+    height: 500px;
+    width: 700px;
+    margin-left: 10px;       
+    border-radius: 20px;
+    border: 2px solid #fff;
+    }
+    .taj-mahal-img:hover{
+        transform: scale(1.02);
+        transition: 0.4s ease;
+        box-shadow: 4px 8px 20px 0px gray ;
+    
+    }
+    
+    .taj-img{
+      height: 240px;
+      width: 280px;        
+      border:2px solid #fff; 
+      margin-top: 5px;    
+      border-radius: 8px; 
+      margin-left:20px; 
+    }
+    .taj-img:hover{
+        transform: scale(1.01);
+        transition: 0.4s ease;
+        box-shadow: 4px 8px 20px 0px gray ;
+    
+    }
+    .div{
+      display: flex;
+      justify-content: space-evenly;
+  }
+    .div-1{
+      display: flex;    
+      flex-wrap: wrap;  
+      justify-content: center;   
+      margin-top: 5px;
+      margin-bottom: 5px;
+    
+    }
+    .div-2{
+      display: flex;    
+      flex-wrap: wrap;  
+      justify-content:center;   
+      margin-top: 5px;
+      margin-bottom: 5px;
+
+    }
+   .address{
+    color:azure;
+    font-weight:30px;
+    font-size: 19px;
+    position: relative;
+    bottom:25px;
+    left:450px;
+   }
+   .history-block{
+    background-color:#262626;
+    border:2px solid white;
+    margin:20px 30px;
+    padding:20px;
+    border-radius: 30px;
+   }
+   .headings{
+    color:azure;
+
+   }.discription{
+    color:azure;
+    font-family:sans-serif;
+    padding: 20px;
+   }
+   .points{
+    padding:7px;
+   }
+   .middle-part{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 30px;
+    padding:20px;
+   }
+   .blocks{
+    background-color: #262626;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding:20px;
+    margin: 10px;
+   }
+   .cards-container{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    height: auto;
+   }
+   .food-cards{
+    background-color: azure;
+    border: 2px solid white;
+    border-radius: 15px;
+    height: auto;
+    width:270px;
+   }
+   .food-cards:hover{
+    transform: scale(1.02);
+    transition: 0.4s ease;
+    box-shadow: 4px 8px 20px 0px gray ;
+    
+
+   }
+   .food-img{
+    height: 230px;
+    width:250px;
+    border-radius: 15px 15px 0 0;
+    margin:10px 10px;
+    box-shadow: 0 0 5px 3px grey;
+   }
+   .food-name{
+    color:#262626;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+   }
+   .food-discription{
+    color:#262626;
+    padding:10px;
+    margin:8px;
+    font-family:initial;
+    text-align: justify;
+   }
+   .place-cards{
+    background-color: azure;
+    border: 2px solid white;
+    border-radius: 15px;
+    height: auto;
+    width:300px;
+    margin:30px;
+}
+.place-cards:hover{
+    transform: scale(1.1);
+    transition: 0.4s ease;
+    box-shadow: 4px 8px 20px 0px gray ;
+}
+.place-card-img{
+    height: 230px;
+    width:280px;
+    border-radius: 15px 15px 0 0;
+    margin:10px 10px;
+    box-shadow: 0 0 5px 3px grey;
+}
+.place-name{
+    color:#262626;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+.place-info{
+    color:#262626;
+    padding:25px;
+    margin:8px;
+    font-family:initial;
+    text-align: justify;
+}
+.hotel-card-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.hotel-card{
+    background-color: azure;
+    border: 2px solid white;
+    border-radius: 15px;
+    height: auto;
+    width:310px;
+    margin:25px;
+}
+.hotel-card:hover{
+    transform: scale(1.1);
+    transition: 0.4s ease;
+    box-shadow: 4px 8px 20px 0px gray ;
+}
+.hotel-img{
+    height: 200px;
+    width:290px;
+    border-radius: 15px 15px 0 0;
+    margin:10px 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 5px 3px grey;
+}
+.hotel-name{
+    color:#262626;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left:25px;
+    margin-top: 10px;
+
+}
+.hotel-add{
+    font-size: 15px;
+    margin-left: 25px;
+    color:rgba(77, 77, 77,0.9)
+}
+.hotel-info{
+    color:#008080;
+}
+.prise{
+    color:#d70909;
+    font-size: 19px; 
+    font-weight: bold;
+    margin-left: 25px;
+}
+.call-btn{
+    border: 2px solid rgb(167, 4, 4);
+    border-radius: 20px;
+    color: #d70909;
+    background-color: azure;
+    padding:10px;
+    position: relative;
+    left:200px;
+    bottom:30px;
+    font-weight: bold;
+    width: 90px;
+}
+.call-btn:hover{
+    background-color: #d70909;
+    color: azure;
+    cursor: pointer;
+
+}
+.map{
+    border: 2px solid rgb(246, 12, 12);
+    position: relative;
+    left:400px;
+   }
+   .Wish{
+    text-align: center;
+    Color:whitesmoke;
+   }
+   .footer{
+    background: #fff;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.footer-img{
+    height: 250px;
+    position: relative;
+    bottom: 20px;
+    right: 30px;
+}
+.input{
+    border-radius: 15px;
+    background-color: #fff;
+    color: #000;
+}
+.h2{
+    margin-top: -50px;
+}
+.btn{
+    background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+.btn:hover{
+    background-image: linear-gradient(to right, #757F9A 0%, #D7DDE8  51%, #757F9A  100%);
+    background-position: right center; /* change the direction of the change here */
+    color:#000;
+    text-decoration: none;
+}
+
+.button{
+    border-radius: 10px;
+    
+}
+   @media screen and (min-width:500px) and (max-width:600px){
+    .navbar{
+        height: 40px;
+        display: flex;
+        
+    }
+    .navbar-icon{
+        padding-left: 5px;
+        height: 50px;
+        position: relative;
+        bottom: 15px;
+    
+    }
+    
+    .title{
+        font-size: 25px;
+        position: relative;
+        left: 1px;
+        padding-bottom: -10px;
+        margin-top: -5px;
+    }
+    .nav-btn{
+        border-radius: 25px;
+        padding:7px;
+        font-size: 10px;
+        width:55px;
+        height:auto;
+        position: relative;
+        left:15px;
+        top:-15px;
+        margin:1px;}
+    
+    .navbar-menu{
+        position: relative;
+        top: -5px;
+        right: 15px;
+    }
+.navbar-icon{
+     padding-left: 10px;
+     height: 80px;
+     position: relative;
+     bottom:15px;
+ }
+
+    .main-heading{
+        font-size: 40px;
+        margin-left: 60px;
+       }
+       .address{
+        font-size: 16px;
+        position: relative;
+        bottom:25px;
+        left:50px;
+       }
+       .tag-line{
+        font-size: 15px;
+       }
+       .taj-mahal-img{
+        height: 400px;
+        width: 370px;
+        margin-left: 5px; 
+        margin-top: 20px;      
+        }
+        .taj-img{
+          height: 100px;
+          width: 120px;        
+          margin-top: 3px;    
+          margin-left:10px; 
+        }
+        .history-block{
+            background-color:#262626;
+            border:2px solid white;
+            margin:10px 15px;
+            padding:15px;
+            
+           }
+        .discription{
+            padding: 15px;
+           }
+           .middle-part{
+            width:500px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-left:-10px;
+           }
+           .cards-container{
+            display:flex;
+            justify-content:space-evenly;
+            flex-wrap: wrap;
+            height: auto;
+           }
+           .food-cards{
+            height: auto;
+            width:230px;
+            margin:10px;
+           }
+           .food-img{
+            height: 210px;
+            width:200px;
+            box-shadow: 0 0 4px 2px grey;
+           }
+           .food-name{
+            font-size: 20px;
+            margin-top: 8px;
+           }
+           .food-discription{
+            padding:8px;
+            margin:8px;
+           }
+           .place-cards{
+            height: auto;
+            width:350px;
+            margin:20px;
+        }
+        .place-card-img{
+            height: 310px;
+            width:330px;
+            margin:8px 8px;
+        }
+        .map{
+            height: 350px;
+            width:490px;
+            position: relative;
+            left:10px;
+           }
+           .Wish{
+            font-size: 16px;
+            text-align: center;
+            Color:whitesmoke;
+           }
+           .footer{
+            padding: 30px;
+        }
+        .s-column{
+            font-size: 13px;
+            padding-right: 15px;
+            padding-top: 35px;
+            padding-left: 15px;
+        }
+        .h2{
+            font-size: 17px;
+        }
+        .footer-img{
+            height: 140px;
+            position: relative;
+            bottom:17px;
+            left:-15px;
+        }
+        
+        .social-m{
+            height: 23px;
+        }
+        
+        }
+   @media screen and (min-width:601px) and (max-width:750px){
+    .navbar{
+        height: 43px;
+        display: flex;
+        
+    }
+    .navbar-icon{
+        padding-left: 5px;
+        height: 80px;
+        position: relative;
+        bottom: 15px;
+    
+    }
+    
+    .title{
+        font-size: 30px;
+        position: relative;
+        left: 1px;
+        padding-bottom: -5px;
+        margin-top:8px;
+    }
+    .nav-btn{
+        padding:9px;
+        font-size: 10px;
+        width:60px;
+        height:auto;
+        position: relative;
+        left:15px;
+        top:-15px;
+        margin:1px;}
+    
+    .navbar-menu{
+        position: relative;
+        top: -5px;
+        right: 15px;
+    }
+
+    .main-heading{
+        font-size: 60px;
+        margin-left: 100px;
+       }
+       .address{
+        font-size: 20px;
+        position: relative;
+        bottom:25px;
+        left:70px;
+       }
+       .tag-line{
+        font-size: 15px;
+       }
+       .taj-mahal-img{
+        height: 450px;
+        width: 450px;
+        margin-left: 5px; 
+        margin-top: 45px;      
+        }
+        .taj-img{
+          height: 120px;
+          width:200px;        
+          margin-top: 3px;    
+          margin-left:10px; 
+
+   }
+   .history-block{
+    margin:13px 18px;
+    padding:17px;
+    
+   }
+.discription{
+    padding: 17px;
+   }
+   .middle-part{
+    width:700px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:-10px;
+   }
+   .cards-container{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    height: auto;
+    
+   }
+   .food-cards{
+    height: auto;
+    width:300px;
+    margin:5px;
+   }
+   .food-img{
+    height: 210px;
+    width:270px;
+    box-shadow: 0 0 4px 4px grey;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+   }
+   .food-name{
+    font-size: 30px;
+    margin-top:12px;
+   }
+   .food-discription{
+    padding:10px;
+    margin:10px;
+   }
+   .place-cards{
+    height: auto;
+    width:310px;
+    margin:20px;
+}
+.place-card-img{
+    height:310px;
+    width:290px;
+    margin:8px 8px;
+}
+.hotel-card-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.hotel-card{
+    height: auto;
+    width:310px;
+    margin:20px;
+}
+.hotel-img{
+    height: 200px;
+    width:290px;
+    border-radius: 15px 15px 0 0;
+    margin:10px 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 5px 3px grey;
+}
+.map{
+    height: 350px;
+    width:490px;
+    position: relative;
+    left:120px;
+   }
+   .Wish{
+    font-size: 19px;
+    text-align: center;
+    Color:whitesmoke;
+   }
+   .footer{
+    padding: 30px;
+}
+.s-column{
+    font-size: 13px;
+    padding-right: 20px;
+    padding-top: 35px;
+    padding-left: 20px;
+}
+.h2{
+    font-size: 15px;
+}
+.footer-img{
+    height: 120px;
+    position: relative;
+    bottom:15px;
+    left:-10px;
+}
+
+.social-m{
+    height: 25px;
+}
+
+   }
+    

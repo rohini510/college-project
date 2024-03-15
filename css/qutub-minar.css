@@ -1,0 +1,624 @@
+body{
+    background-color: black;
+   }
+   a{
+    text-decoration: none;
+    color: #000;
+}
+   .navbar{
+    background-color: #fff;
+    height: 80px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar-icon{
+    padding-left: 40px;
+    height: 160px;
+    position: relative;
+    bottom:35px;
+}
+.nav-btn{
+    border:2px solid black;
+    border-radius: 30px;
+    background-color: black;
+    color:azure;
+    padding:10px;
+    font-size: 15px;
+    width:90px;
+    height:auto;
+    font-weight: bold;
+    position: relative;
+    top:40px;
+    margin:7px;
+}
+.nav-btn:hover{
+    color:#000;
+    background-color: whitesmoke;
+    transform: scale(1.2);
+    transition: 0.4s;
+  }
+ .tit{
+            text-align: center;
+      }
+     .title{
+     font-size: 50px;
+     font-weight: bold;
+     color: #06038D;
+     position: relative;
+     left: 40px;
+     padding-bottom: 15px;
+     margin-top: 8px;
+     }
+ .navbar-menu{
+     position: relative;
+     bottom:45px;
+     margin:10px;
+     padding:20px;
+     display: flex;
+     flex-direction: row;
+  }
+        
+   .main-heading{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color:whitesmoke;
+    margin-left: 30px;
+    text-align: center;   
+   }
+   .tag-line{
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;   
+   }
+   .main-img{
+    height: 500px;
+    width: 700px;
+    margin-left: 10px;       
+    border-radius: 20px;
+    border: 2px solid #fff;
+    }
+    .main-img:hover{
+    transform: scale(0.9);
+     transition: 0.4s ease;
+    box-shadow: 2px 4px 2px 0px gray ;
+    }
+    .secondary-img{
+      height: 240px;
+      width: 280px;        
+      border:2px solid #fff; 
+      margin-top: 5px;    
+      border-radius: 8px; 
+      margin-left:20px; 
+    }
+    .secondary-img:hover{
+        transform: scale(0.9);
+        transition: 0.4s ease;
+        box-shadow: 2px 4px 2px 0px gray ;
+    }
+    .div{
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .div-1{
+      display: flex;    
+      flex-wrap: wrap;  
+      justify-content: center;   
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    .div-2{
+      display: flex;    
+      flex-wrap: wrap;  
+      justify-content:center;   
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+   .address{
+    color:azure;
+    font-weight:30px;
+    font-size: 19px;
+    position: relative;
+    bottom:25px;
+    left:45px;
+    text-align: center;
+    display: block;
+   }
+   .history-block{
+    background-color:#262626;
+    border:2px solid white;
+    margin:20px 30px;
+    padding:20px;
+    border-radius: 30px;
+   }
+   .headings{
+    color:azure;
+    text-align: center;
+
+   }.discription{
+    color:azure;
+    font-family:sans-serif;
+    padding: 20px;
+   }
+   .points{
+    padding:7px;
+   }
+   .middle-part{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 30px;
+    padding:20px;
+   }
+   .blocks{
+    background-color: #262626;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding:20px;
+    margin: 10px;
+   }
+   .food{
+    display:flex;
+    justify-content:space-evenly;
+   }
+   .food-cards{
+    background-color: azure;
+    border: 2px solid white;
+    border-radius: 15px;
+    height: auto;
+    width:270px;
+    margin: 5px;
+    padding: 6px;
+   }
+   .food-img{
+    height: 250px;
+    width:270px;
+    border-radius: 15px 15px 0 0;
+   }
+   .food-name{
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+   }
+   .food-discription{
+    color:black;
+    padding:10px;
+    margin:8px;
+    font-family:initial;
+    text-align: justify;
+
+   }
+   .nearby-places{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-top: 30px;
+   }
+   .nearby-places-cards{
+    background-color:azure;
+    border: 2px solid white;
+    border-radius: 15px;
+    height: auto;
+    width:270px;
+    padding: 6px;
+   }
+   .nearby-places-img{
+    height: 250px;
+    width:270px;
+    border-radius: 15px 15px 0 0;
+   }
+   .nearby-places-name{
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+   }
+   .nearby-places-discription{
+    color:black;
+    padding:10px;
+    margin:8px;
+    font-family:initial;
+    text-align: justify;
+   }
+   .hotel-card-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    }
+    .hotel-card{
+    background-color: azure;
+    border: 2px solid white;
+    border-radius: 15px;
+    height: 380px;
+    width:280px;
+    margin:25px;
+    }
+    .hotel-img{
+    height: 200px;
+    width:260px;
+    border-radius: 15px 15px 0 0;
+    margin:10px 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 5px 3px grey;
+    }
+    .hotel-name{
+    color:#262626;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left:25px;
+    margin-top: 10px;
+    }
+    .hotel-add{
+    font-size: 15px;
+    margin-left: 25px;
+    color:rgba(77, 77, 77,0.9)
+    }
+    .price{
+    color:#d70909;
+    font-size: 19px; 
+    font-weight: bold;
+    margin-left: 25px;
+    }
+    .call-btn{
+    border: 2px solid rgb(167, 4, 4);
+    border-radius: 20px;
+    color: #d70909;
+    background-color: azure;
+    padding:10px;
+    position: relative;
+    left:90px;
+    bottom: -10px;
+    font-weight: bold;
+    width: 90px;
+    }
+    .call-btn:hover{
+    background-color: #d70909;
+    color: azure;
+    cursor: pointer;
+    }
+    .footer{
+        background: #fff;
+        height: 300px;
+        padding: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .footer-img{
+        height: 150px;
+        position: relative;
+        top: 25px;
+    }
+    .input{
+        border-radius: 15px;
+        background-color:white;
+        color: black;
+    }
+    .btn{
+        background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%);
+        margin: 10px;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        display: block;
+        background-color: #fff;
+    }
+    .btn:hover{
+        background-image: linear-gradient(to right, #757F9A 0%, #D7DDE8  51%, #757F9A  100%);
+        background-position: right center; /* change the direction of the change here */
+        color:#000;
+        text-decoration: none;
+    }
+    
+@media screen and (min-width:500px) and (max-width:650px){
+    .navbar{
+        height: 40px;
+        display: flex;
+        
+    }
+    .navbar-icon{
+        padding-left: 5px;
+        height: 50px;
+        position: relative;
+        bottom: 15px;
+    
+    }
+    
+    .title{
+        font-size: 25px;
+        position: relative;
+        left: 1px;
+        padding-bottom: -10px;
+        margin-top: -5px;
+    }
+    .nav-btn{
+        border-radius: 25px;
+        padding:7px;
+        font-size: 10px;
+        width:55px;
+        height:auto;
+        position: relative;
+        left:15px;
+        top:-15px;
+        margin:1px;}
+    
+    .navbar-menu{
+        position: relative;
+        top: -5px;
+        right: 15px;
+    }
+.navbar-icon{
+     padding-left: 10px;
+     height: 80px;
+     position: relative;
+     bottom:15px;
+ }
+    .main-heading{
+        font-size: 40px;
+        margin-left: 60px;
+    }
+       .address{
+        font-size: 16px;
+        position: relative;
+        bottom:25px;
+        left:50px;
+     }
+       .tag-line{
+        font-size: 15px;
+    }
+       .main-img{
+        height: 400px;
+        width: 370px;
+        margin-left: 5px; 
+        margin-top: 20px;      
+    }
+        .secondary-img{
+          height: 100px;
+          width: 120px;        
+          margin-top: 3px;    
+          margin-left:10px; 
+     }
+        .history-block{
+            background-color:#262626;
+            border:2px solid white;
+            margin:10px 15px;
+            padding:15px;
+            
+    }
+        .discription{
+            padding: 15px;
+           }
+           .middle-part{
+            width:500px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-left:-10px;
+           }
+           .food{
+            display:flex;
+            justify-content:space-evenly;
+            flex-wrap: wrap;
+            height: auto;
+           }
+           .food-cards{
+            height: auto;
+            width:230px;
+            margin:10px;
+           }
+           .food-img{
+            height: 210px;
+            width:220px;
+            box-shadow: 0 0 4px 2px grey;
+           }
+           .food-name{
+            font-size: 20px;
+            margin-top: 8px;
+           }
+           .food-discription{
+            padding:8px;
+            margin:8px;
+           }
+           .nearby-places-cards{
+            height: auto;
+            width:350px;
+            margin:20px;
+        }
+        .nearby-places-img{
+            height: 310px;
+            width:330px;
+            margin:8px 8px;
+        }
+        .map{
+            height: 350px;
+            width:450px;
+            position: relative;
+            left:10px;
+           }
+        .footer-img{
+            height: 140px;
+            position: relative;
+            bottom:17px;
+            left:-15px;
+        }
+        
+        .social-m{
+            height: 23px;
+        }
+        
+        
+   }
+   @media screen and (min-width:651px) and (max-width:800px){
+
+    .navbar{
+        height: 43px;
+        display: flex;
+        
+    }
+    .navbar-icon{
+        padding-left: 5px;
+        height: 80px;
+        position: relative;
+        bottom: 15px;
+    
+    }
+    
+    .title{
+        font-size: 30px;
+        position: relative;
+        left: 1px;
+        padding-bottom: -5px;
+        margin-top:8px;
+    }
+    .nav-btn{
+        padding:9px;
+        font-size: 10px;
+        width:60px;
+        height:auto;
+        position: relative;
+        left:15px;
+        top:-15px;
+        margin:1px;}
+    
+    .navbar-menu{
+        position: relative;
+        top: -5px;
+        right: 15px;
+    }
+    .main-heading{
+        font-size: 60px;
+        margin-left: 100px;
+       }
+       .address{
+        font-size: 20px;
+        position: relative;
+        bottom:25px;
+        left:70px;
+       }
+       .tag-line{
+        font-size: 15px;
+       }
+       .main-img{
+        height: 450px;
+        width: 450px;
+        margin-left: 5px; 
+        margin-top: 45px;      
+        }
+        .secondary-img{
+          height: 120px;
+          width:200px;        
+          margin-top: 3px;    
+          margin-left:10px; 
+
+   }
+   .history-block{
+    margin:13px 18px;
+    padding:17px;
+    
+   }
+.discription{
+    padding: 17px;
+   }
+   .middle-part{
+    width:700px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:-10px;
+   }
+   .food{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    height: auto;
+   }
+   .food-cards{
+    height: auto;
+    width:300px;
+    margin:15px;
+   }
+   .food-img{
+    height: 210px;
+    width:270px;
+    box-shadow: 0 0 4px 4px grey;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   .food-name{
+    font-size: 30px;
+    margin-top:12px;
+   }
+   .food-discription{
+    padding:10px;
+    margin:10px;
+   }
+   .nearby-places-cards{
+    height: auto;
+    width:310px;
+    margin:20px;
+}
+.nearby-places-img{
+    height:310px;
+    width:290px;
+    margin:8px 8px;
+}
+.hotel-card-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.hotel-card{
+    height: 380px;
+    width:310px;
+    margin:20px;
+}
+.hotel-img{
+    height: 200px;
+    width:290px;
+    border-radius: 15px 15px 0 0;
+    margin:10px 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 5px 3px grey;
+}
+.btn-1{
+    margin-left: 15px;
+    
+}
+.btn-2{
+    margin-right: 50px;
+}
+
+
+.map{
+    height: 350px;
+    width:490px;
+    position: relative;
+    left:120px;
+   }
+   .btn{
+    margin: 10px;
+    padding: 10px 15px;
+    size: 25px;  
+}
+.footer-img{
+    height: 120px;
+    position: relative;
+    bottom:15px;
+    left:-10px;
+}
+
+.social-m{
+    height: 25px;
+}
+
+   }

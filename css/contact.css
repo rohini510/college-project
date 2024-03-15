@@ -1,0 +1,221 @@
+body{
+    background-color:#000000;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.navbar{
+    background-color: #fff;
+    height: 80px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: -5px;
+}
+
+.navbar-icon{
+    padding-left: 40px;
+    height: 100px;
+
+}
+.tit{
+    text-align: center;
+}
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #06038D;
+    position: relative;
+    left: 100px;
+    padding-bottom: 15px;
+    margin-top: 8px;
+}
+.menu-icon{
+    border:2px solid black;
+    border-radius: 30px;
+    background-color: black;
+    color:azure;
+    padding:9px;
+    font-size: 20px;
+    text-align: center;
+    width:70px;
+    height:auto;
+    font-weight: bold;
+    position: relative;
+    top:20px;
+    margin:7px;
+   
+    
+
+}
+
+.menu-icon:hover{
+    color:#000;
+    background-color: whitesmoke;
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+.navbar-menu{
+    position: relative;
+    top: -5px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.sup{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.sub{
+    border: 1px solid gray;
+    height: 600px;
+    width: 500px;
+    color: #fff;
+    text-align: center;
+
+}
+
+.office-img{
+    height: 600px;
+    width: 500px;
+    position: relative;
+}
+
+.officeint-img{
+    height: 100px;
+    position: absolute;
+    left: 338px;
+    top: 800px;
+
+}
+.heading{
+    
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 54px;
+}
+h2{
+    font-size: 32px;
+}
+h5{
+    font-size: 20px;
+}
+
+@media screen and (min-width: 430px) and (max-width:768px){
+
+    .navbar{
+        height: 40px;
+        display: flex;
+        
+    }
+    .navbar-icon{
+        padding-left: 10px;
+        height: 70px;
+        position: relative;
+        bottom: 10px;
+    
+    }
+    
+    .title{
+        font-size: 20px;
+        position: relative;
+        left: 1px;
+        padding-bottom: 0px;
+        margin-top: 2px;
+    }
+    .menu-icon{
+        font-size: 15px;
+        margin-left: 5px;
+        padding: 3px;
+        
+    }
+    
+    .navbar-menu{
+        position: relative;
+        top: -16px;
+        right: 15px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+
+    
+    
+    .navbar{
+        height: 40px;
+        display: flex;
+        
+    }
+    .navbar-icon{
+        padding-left: 10px;
+        height: 70px;
+        position: relative;
+        bottom: 10px;
+    
+    }
+    
+    .title{
+        font-size: 30px;
+        position: relative;
+        left: 1px;
+        padding-bottom: 0px;
+        margin-top: 2px;
+    }
+    .menu-icon{
+        margin-left: 10px;
+        margin-top: 11px;
+        font-size: 15px;
+        padding: 3px 1px;
+    }
+    
+    .navbar-menu{
+        position: relative;
+        top: -25px;
+        right: 15px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1550px){
+
+    
+    .navbar{
+        height: 40px;
+        display: flex;
+        
+    }
+    .navbar-icon{
+        padding-left: 10px;
+        height: 70px;
+        position: relative;
+        bottom: 10px;
+    
+    }
+    
+    .title{
+        font-size: 30px;
+        position: relative;
+        left: 1px;
+        padding-bottom: 0px;
+        margin-top: 2px;
+    }
+    .menu-icon{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    
+    .navbar-menu{
+        position: relative;
+        top: -25px;
+        right: 15px;
+    }
+}
